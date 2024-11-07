@@ -1,0 +1,57 @@
+{%extends "layout.html"%}
+{%block content%}
+<style>
+    h2 {color: hsl(180, 9%, 98%);}
+      
+    a[href] {color: hsl(180, 26%, 95%);}
+
+    a:hover {color: hsl(320, 56%, 52%);}
+
+    
+    body {
+        background-image: url('/static/backgroundimage.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    .images{
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      width: 700px;
+      height: 150px;
+    }
+     
+        
+</style>
+
+<div class="about">
+  <center><h1>🤖 Welcome to My Multiple Disease Predictor Site</h1>
+  <h2>This trained Machine Learning model can predict whether a person is suffering from a disease or not on the basis of details provided to it.<h2>
+</center>
+  
+    <h2><br/>This site offers the following disease prediction:<br/></h2>
+      <h2>1.Diabetes</h2>
+
+    <div class="images">
+
+     <br><img src="/static/diabetes1.jpg" alt="no images">
+     <h2>2.Heart disease</h2>
+     <br>
+     <img src="/static/Heart Disease_ Signs, Symptoms, and Complications.jpg" alt="no images">
+     <h2>3.parkinsons</h2>
+     <br>
+     <img src="/static/Free Vector _ Parkinson disease symptoms infographic.jpg" alt="no images">
+     <br>
+     <h2>About: </h2><h3> project presents a Multiple Disease Prediction System utilizing machine learning techniques, specifically designed for predicting three prevalent health conditions: diabetes, heart disease, and Parkinson's disease. The system employs supervised learning algorithms trained on relevant medical datasets to develop accurate prediction models for each disease category</h3>
+     
+
+    </div>
+    
+  
+  <br>
+  <br/>
+  <center>
+  <a href="https://copyright.gov.in/">Copyrights | </a><a href="https://www.linkedin.com/in/vinoth-murugan-34a347247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedIn | </a><a href= "mailto: vinothmurugan41@gmail.com">Email</a>
+</center>
+  {%endblock%}
